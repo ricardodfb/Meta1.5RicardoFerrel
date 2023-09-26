@@ -27,6 +27,11 @@ const routes = [
         name: 'Tabla',
         component: () => import('@/components/DataTable.vue'),
       },
+      {
+        path: '/test',
+        name: 'Test',
+        component: () => import('@/components/test.vue'),
+      }
     ],
   },
 ]
